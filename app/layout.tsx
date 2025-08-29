@@ -1,3 +1,3 @@
-import RootLayout from "@/app/layouts/rootLayout";
+import RootLayout from '@/app/layouts/rootLayout';
 
-export default RootLayout
+export default RootLayout;

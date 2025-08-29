@@ -1,4 +1,3 @@
-
 ## FSD
 
 To learn more about Next.js, take a look at the following resources:
@@ -7,4 +6,4 @@ To learn more about Next.js, take a look at the following resources:
 
 ## Reference
 
- [noveogroup-amorgunov](https://github.com/noveogroup-amorgunov/nukeapp/tree/main)
+[noveogroup-amorgunov](https://github.com/noveogroup-amorgunov/nukeapp/tree/main)
