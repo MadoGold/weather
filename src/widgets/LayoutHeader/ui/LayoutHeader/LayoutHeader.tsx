@@ -1,15 +1,18 @@
 import { ChangeTheme } from '@/features/theme/changeTheme';
-import { Logo } from '../Logo/Logo';
+import { ChangeLocation } from '@/features/location/chandeLocation';
+import { cvaRoot } from './LayoutHeader.style';
+import { NowWeather } from '@/features/weather/nowWeather';
 
 export function LayoutHeader() {
   return (
-    <div
-      className={
-        'mt-4 p-4 flex items-center justify-between bg-inherit rounded-xl backdrop-blur-xl bg-opacity-15'
-      }
-    >
-      <Logo />
-      <ChangeTheme />
+    <div className={cvaRoot()}>
+      <div>
+        <ChangeLocation />
+        <NowWeather />
+      </div>
+      <div>
+        <ChangeTheme />
+      </div>
     </div>
   );
 }
