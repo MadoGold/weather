@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html {
+  font-size: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: medium;
+  font-style: normal;
+}
+
+body {
+  font-size: var(--text-base);
+  line-height: 1;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -24,6 +38,14 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 221.2 83.2% 53.3%;
     --radius: 0.75rem;
+
+    /* Размеры текста */
+    --text-xs: 1.2rem;
+    --text-sm: 1.8rem;
+    --text-base: 2.4rem;
+    --text-lg: 4.8rem;
+    --text-xl: 9.6rem;
+    --text-2xl: 12.8rem;
   }
 
   .dark {
