@@ -6,13 +6,11 @@ import { NowWeather } from '@/features/weather/nowWeather';
 export function LayoutHeader() {
   return (
     <div className={cvaRoot()}>
-      <div>
+      <div className="flex items-center justify-between gap-30">
         <ChangeLocation />
-        <NowWeather />
-      </div>
-      <div>
         <ChangeTheme />
       </div>
+      <NowWeather />
     </div>
   );
 }

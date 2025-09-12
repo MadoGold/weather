@@ -19,6 +19,8 @@ body {
 @layer base {
   :root {
     --background: 0 0% 100%;
+    --blueBackground: 228 54% 30%;
+    --blueBackground-foreground: 222.2 84% 4.9%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -37,7 +39,7 @@ body {
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 221.2 83.2% 53.3%;
-    --radius: 0.75rem;
+    --radius: 4rem;
 
     /* Размеры текста */
     --text-xs: 1.2rem;
@@ -78,4 +80,14 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.recharts-responsive-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.recharts-responsive-container svg {
+  outline: none;
+  overflow: visible !important;
 }
