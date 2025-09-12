@@ -8,7 +8,9 @@ export const metadata: Metadata = {
   description: 'Weather app',
 };
 
-const RootStyle = cva('min-h-screen bg-background font-sans antialiased');
+const RootStyle = cva(
+  'min-h-screen bg-background font-sans  transition-all duration-200 antialiased'
+);
 
 export default function RootLayout({
   children,

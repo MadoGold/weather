@@ -1,10 +1,10 @@
 import { ChevronRightIcon, MapPinIcon } from 'lucide-react';
-import { Root } from './ChandeLocation.style';
+import { cvaRoot } from './ChandeLocation.style';
 
 export function ChangeLocation() {
   return (
-    <div className={Root()}>
-      <MapPinIcon />
+    <div className={cvaRoot()}>
+      <MapPinIcon size={25} />
       <span>New York</span>
       <ChevronRightIcon />
     </div>
